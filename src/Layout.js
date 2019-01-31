@@ -1,10 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import Header from './components/Header'
+
 class Layout extends Component {
+  constructor(){
+    super();
+    this.state = {
+      navLinks: ['Home', 'About Me', 'Projects', 'Accomplishments', 'Contact Me']
+    }
+  }
   render() {
     return (
-      <h1>Hello World!!</h1>
+        <Header links={this.state.navLinks}/>
     );
   }
 }
