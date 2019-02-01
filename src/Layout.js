@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import About from './components/About'
 import Header from './components/Header'
 import Home from './components/Home'
 
@@ -22,8 +23,9 @@ class Layout extends Component {
     const { navLinks, msg} = this.state;
     return (
         <div>
-          <Header links={navLinks}/>
-          <Home message={msg}/>
+          <Header links={navLinks} />
+          <Home message={msg} />
+          <About message={msg} />
         </div>
 
     );
