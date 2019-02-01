@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 
 import About from './components/About'
+import Accomplishments from "./components/Accomplishments";
 import Header from './components/Header'
 import Home from './components/Home'
+import Projects from "./components/Projects";
 
 class Layout extends Component {
   constructor(){
@@ -26,6 +28,8 @@ class Layout extends Component {
           <Header links={navLinks} />
           <Home message={msg} />
           <About message={msg} />
+          <Projects message={msg} />
+          <Accomplishments message={msg}/>
         </div>
 
     );
