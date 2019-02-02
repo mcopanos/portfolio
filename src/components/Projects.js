@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Projects = props => {
+const Projects = () => {
     return(
         <main>
-            <h1>{props.message.projects}</h1>
+            <h1>This is the Projects Page</h1>
         </main>
 
     )

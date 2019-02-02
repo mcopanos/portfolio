@@ -1,9 +1,10 @@
 import React  from 'react';
+import Background from '../assests/home-page.jpeg';
 
-const Home = props => {
+const Home = () => {
     return(
         <main>
-            <h1>{props.message.home}</h1>
+            <img src={Background} alt={Background}/>
         </main>
 
     )

@@ -1,12 +1,11 @@
 import React from 'react';
 
-const About = props => {
+const About = () => {
     return(
         <main>
-            <h1>{props.message.about}</h1>
+            <h1>This is the About Page</h1>
         </main>
-
-    )
+    );
 };
 
 export default About;

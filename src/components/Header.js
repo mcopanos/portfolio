@@ -1,19 +1,27 @@
 import React  from 'react';
+import { Link } from 'react-router-dom';
 
-const Header = (props) => {
+const Header = () => {
      return(
          <div className="nav-bar">
              <ul>
-                 {props.links.map((link, i) => {
-                     return(
-                         <li key={i}>
-                             <a href="#">{link}</a>
-                         </li>
-                     )
-                 })}
+                 <li>
+                     <Link to='/'>Home</Link>
+                 </li>
+                 <li>
+                     <Link to='/about'>About</Link>
+                 </li>
+                 <li>
+                     <Link to='/Projects'>Projects</Link>
+                 </li>
+                 <li>
+                     <Link to='/accomplishments'>Accomplishments</Link>
+                 </li>
+                 <li>
+                     <Link to='/contact'>Contact</Link>
+                 </li>
              </ul>
          </div>
-
      )
 };
 
