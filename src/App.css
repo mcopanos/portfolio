@@ -42,3 +42,12 @@ li a {
 li a:hover {
     background-color: #757575;
 }
+
+.home-header {
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    font-size: 2.5em;
+    border: 2px dotted hotpink;
+}
