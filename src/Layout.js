@@ -5,6 +5,7 @@ import './App.css';
 import About from './components/About'
 import Accomplishments from "./components/Accomplishments";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Header from './components/Header'
 import Home from './components/Home'
 import Projects from "./components/Projects";
@@ -15,11 +16,12 @@ class Layout extends Component {
     return (
         <div>
           <Header />
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/accomplishments" component={Accomplishments} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/" exact render={() => <Home strings={["I'm a web developer", "I love coding with React.js", "Wanna see my work?"]}/>} />
+          <Route path="/about" render={() => <About message='hello' />}  />
+          <Route path="/projects" render={() => <Projects/>}  />
+          <Route path="/accomplishments" render={()=> <Accomplishments/>} />
+          <Route path="/contact" render={() =><Contact/>} />
+          <Footer />
         </div>
     );
   };
