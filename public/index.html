@@ -37,5 +37,13 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      function showButton() {
+        const button = document.querySelector('#my-btn');
+        button.classList.add('my-work-btn-show');
+        button.classList.remove('my-work-btn-hide');
+      }
+      setTimeout(showButton, 9000)
+    </script>
   </body>
 </html>

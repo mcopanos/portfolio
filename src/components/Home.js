@@ -15,6 +15,7 @@ class Home extends Component {
         this.typed = new Typed(this.el, options);
     }
     render() {
+
         return(
             <main className="home-grid">
                 <div className="home-section">
@@ -23,7 +24,7 @@ class Home extends Component {
                     <br/>
                     <span className="animated-text" ref={(el) => {this.el = el}}/>
                     <br/>
-                    <Link className="my-work-btn" to='/Projects'>Check out my work</Link>
+                    <Link id="my-btn" className="my-work-btn-hide" to='/Projects'>Check out my work</Link>
                 </div>
             </main>
         );

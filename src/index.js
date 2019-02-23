@@ -4,6 +4,10 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from "react-router-dom";
 import Layout from './Layout';
 import * as serviceWorker from './serviceWorker';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { } from '@fortawesome/free-solid-svg-icons'
+
+library.add();
 
 ReactDOM.render(
     <BrowserRouter><Layout /></BrowserRouter>,

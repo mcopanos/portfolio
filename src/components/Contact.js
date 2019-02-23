@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return(
-        <main>
+        <main className='home-grid'>
             <h1>This is the Contact Page</h1>
         </main>
     )
