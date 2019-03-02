@@ -13,7 +13,17 @@ class Home extends Component {
             showCursor: false
         };
         this.typed = new Typed(this.el, options);
+
     }
+    componentWillMount() {
+        function showButton() {
+            const button = document.querySelector('#my-btn');
+            button.classList.add('my-work-btn-show');
+            button.classList.remove('my-work-btn-hide');
+        }
+        setTimeout(showButton, 9000)
+    }
+
     render() {
 
         return(

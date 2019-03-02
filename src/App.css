@@ -144,3 +144,8 @@ li a:hover {
     font-weight: 300;
 }
 
+.icon {
+    float: left;
+}
+
+/********** RESPONSIVE STYLES **********/

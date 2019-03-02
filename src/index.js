@@ -4,10 +4,11 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from "react-router-dom";
 import Layout from './Layout';
 import * as serviceWorker from './serviceWorker';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { } from '@fortawesome/free-solid-svg-icons'
+import '../node_modules/font-awesome/css/font-awesome.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 
-library.add();
+
+
 
 ReactDOM.render(
     <BrowserRouter><Layout /></BrowserRouter>,
