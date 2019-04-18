@@ -1,10 +1,17 @@
 import React from 'react';
+import CodePic from '../assests/pictures/code.jpg';
 
-const About = (props) => {
+const About = () => {
     return(
         <main className='home-grid'>
-            <h1>This is the About Page</h1>
-            <p>{props.message}</p>
+            <div className="code-section">
+                <img src={ CodePic } alt="code on a laptop"/>
+                <h3>passionate about code</h3>
+            </div>
+
+            <h2>self taught</h2>
+            <h2>eager to learn</h2>
+            {/*<p>{props.message}</p>*/}
         </main>
     );
 };

@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import Typed from 'typed.js';
 import ProfilePic from '../assests/pictures/profile-pic.jpg';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class Home extends Component {
     componentDidMount() {
         const { strings } = this.props;
         const options = {
             strings: strings,
-            typeSpeed: 50,
-            backSpeed: 50,
+            typeSpeed: 40,
+            backSpeed: 30,
             showCursor: false
         };
         this.typed = new Typed(this.el, options);
-
     }
+
     componentWillMount() {
         function showButton() {
             const button = document.querySelector('#my-btn');
@@ -25,7 +25,6 @@ class Home extends Component {
     }
 
     render() {
-
         return(
             <main className="home-grid">
                 <div className="home-section">

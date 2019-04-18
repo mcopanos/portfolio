@@ -1,12 +1,14 @@
 import React from 'react';
 
-const Footer = () => {
-    return(
-        <footer className="my-footer">
-            <p>This is the footer</p>
-                <i className="fab fa-github icon" color="black">GitHub</i>
-        </footer>
-    );
-};
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+
+const Footer = () => (
+    <footer className="my-footer">
+        <div>
+            <FaGithub />
+            <FaLinkedin />
+        </div>
+    </footer>
+);
 
 export default Footer;
