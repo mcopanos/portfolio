@@ -1,17 +1,37 @@
 import React from 'react';
 import CodePic from '../assests/pictures/code.jpg';
+import SelfTaught from '../assests/pictures/self-taught.jpg';
+
 
 const About = () => {
     return(
-        <main className='home-grid'>
+        <main className='about-grid'>
             <div className="code-section">
                 <img src={ CodePic } alt="code on a laptop"/>
-                <h3>passionate about code</h3>
+                <div className="text-container">
+                    <h3>passionate about code</h3><br/>
+                    <p>Ever since my first "Hello World" I fell in love with coding.
+                        now it's my passion and new life style. I like creating new things and
+                        learning new JS frameworks!</p>
+                </div>
             </div>
-
-            <h2>self taught</h2>
-            <h2>eager to learn</h2>
-            {/*<p>{props.message}</p>*/}
+            <div className="code-section">
+                <img src={ SelfTaught } alt="code on a laptop"/>
+                <div className="text-container">
+                    <h3>Self Taught</h3><br/>
+                    <p>From Free Code Camp to Udacity, I've taken
+                        advantage of all the online resources as well as books
+                        and youTube.</p>
+                </div>
+            </div>
+            <div className="code-section">
+                <img src={ CodePic } alt="code on a laptop"/>
+                <div className="text-container">
+                    <h3>Eager to Learn</h3><br/>
+                    <p>I haven't stopped at just completing a few online courses,
+                        I keep my ear to the ground on the latest and greatest</p>
+                </div>
+            </div>
         </main>
     );
 };

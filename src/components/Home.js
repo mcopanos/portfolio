@@ -21,7 +21,7 @@ class Home extends Component {
             button.classList.add('my-work-btn-show');
             button.classList.remove('my-work-btn-hide');
         }
-        setTimeout(showButton, 9000)
+        setTimeout(showButton, 7000)
     }
 
     render() {

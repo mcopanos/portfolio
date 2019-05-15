@@ -16,8 +16,13 @@ class Layout extends Component {
     return (
         <div>
           <Header />
-          <Route path="/" exact render={() => <Home strings={["I'm a web developer", "I love solving problems", "And coding with React.js", "Wanna see my work?"]}/>} />
-          <Route path="/about" render={() => <About />} />
+          <Route path="/" exact render={() => <Home
+              strings={[
+                  "I'm a web developer",
+                  "I love solving problems with code",
+                  "Wanna see my work?"]}/>}
+          />
+          <Route path="/about" render={() => <About/>} />
           <Route path="/projects" render={() => <Projects/>}  />
           <Route path="/accomplishments" render={()=> <Accomplishments/>} />
           <Route path="/contact" render={() =><Contact/>} />
