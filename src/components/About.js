@@ -1,13 +1,15 @@
 import React from 'react';
-import CodePic from '../assests/pictures/code.jpg';
+import PassionateAboutCode from '../assests/pictures/code.jpg';
 import SelfTaught from '../assests/pictures/self-taught.jpg';
+import EagerToLearn from '../assests/pictures/eager-to-learn.jpg';
+
 
 
 const About = () => {
     return(
         <main className='about-grid'>
             <div className="code-section">
-                <img src={ CodePic } alt="code on a laptop"/>
+                <img src={ PassionateAboutCode } alt="code on a laptop"/>
                 <div className="text-container">
                     <h3>passionate about code</h3><br/>
                     <p>Ever since my first "Hello World" I fell in love with coding.
@@ -25,7 +27,7 @@ const About = () => {
                 </div>
             </div>
             <div className="code-section">
-                <img src={ CodePic } alt="code on a laptop"/>
+                <img src={ EagerToLearn } alt="code on a laptop"/>
                 <div className="text-container">
                     <h3>Eager to Learn</h3><br/>
                     <p>I haven't stopped at just completing a few online courses,
