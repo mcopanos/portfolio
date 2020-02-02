@@ -1,0 +1,45 @@
+@import "HomePage.css";
+@import "AboutPage.css";
+@import "Header.css";
+@import "Footer.css";
+
+/*********** Global Styles ***********/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    /*color: #363434;*/
+}
+#root {
+    min-height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(22,171,212,1) 55%, rgba(0,212,255,1) 99%);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #363434;
+}
+
+h2 {
+    font-size: 2em;
+    color: #363434;
+}
+
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.75em;
+    font-weight: 900;
+    letter-spacing: .2em;
+}
+
+p {
+    font-size: 1.5em;
+    color: #363434;
+    /*padding: 0px 2px;*/
+}

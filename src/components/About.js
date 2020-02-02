@@ -5,9 +5,9 @@ import EagerToLearn from '../assests/pictures/eager-to-learn.jpg';
 
 
 
-const About = () => {
-    return(
-        <main className='about-grid'>
+const About = () => (
+    <main className="about-grid">
+        <div className="about-wrapper">
             <div className="code-section">
                 <img src={ PassionateAboutCode } alt="code on a laptop"/>
                 <div className="text-container">
@@ -34,8 +34,9 @@ const About = () => {
                         I keep my ear to the ground on the latest and greatest</p>
                 </div>
             </div>
-        </main>
-    );
-};
+        </div>
+    </main>
+);
+
 
 export default About;

@@ -1,0 +1,64 @@
+.home-grid {
+    height: 90vh;
+    /*overflow: scroll;*/
+    text-align: center;
+}
+
+.home-section {
+    padding-top: 155px;
+    line-height: 1.5;
+    width: 90%;
+    margin: auto;
+}
+
+.animated-text {
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+.profile-pic {
+    border-radius: 150px;
+    height: 250px;
+    width: 250px;
+    margin: 15px 6px;
+    border: 2px solid #efecec;
+}
+
+.my-work-btn-hide{
+    display: none;
+}
+.my-work-btn-show{
+    -moz-box-shadow: 0px 10px 14px -7px  #363434;
+    -webkit-box-shadow: 0px 10px 14px -7px  #363434;
+    box-shadow: 0px 10px 14px -7px  #363434;
+    background-color: #5c5757;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    border-radius: 17px;
+    display: inline-block;
+    cursor: pointer;
+    color: #efecec;
+    font-size: 19px;
+    font-weight: lighter;
+    padding: 13px 32px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px  #363434;
+    margin-top: 25px;
+    animation: fadeIn 3s;
+    /*margin-left: 150%;*/
+}
+
+.my-work-btn:hover {
+    transform: scale(1.1);
+    box-shadow: inset 0 -100px 0 0 #262626;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -1,11 +1,14 @@
 import React from 'react';
 
-const Contact = () => {
-    return(
-        <main className='home-grid'>
-            <h1>This is the Contact Page</h1>
-        </main>
-    )
-};
+const Contact = () => (
+    <main className='home-grid'>
+        <div className="project-container">
+            <h1>Have a project in mind?</h1>
+            <div>
+
+            </div>
+        </div>
+    </main>
+);
 
 export default Contact;

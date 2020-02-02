@@ -29,7 +29,7 @@ class Home extends Component {
             <main className="home-grid">
                 <div className="home-section">
                     <img className="profile-pic" src={ProfilePic} alt="head shot"/>
-                    <h1 className="home-heading">Hi, I'm Mike Copanos</h1>
+                    <h1 className="home-heading">Hi! I'm Mike Copanos...</h1>
                     <br/>
                     <span className="animated-text" ref={(el) => {this.el = el}}/>
                     <br/>

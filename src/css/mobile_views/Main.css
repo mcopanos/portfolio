@@ -1,0 +1,19 @@
+@import "HomePage.css";
+
+@media only screen and (max-width: 650px) {
+
+    h1 {
+        font-size: 2em;
+        color: #363434;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        color: #363434;
+    }
+
+    p {
+        font-size: 1.5em;
+        color: #363434;
+    }
+}

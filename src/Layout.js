@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-import './App.css';
-
+import './css/Main.css';
+import './css/mobile_views/Main.css'
 import About from './components/About'
 import Accomplishments from "./components/Accomplishments";
 import Contact from "./components/Contact";

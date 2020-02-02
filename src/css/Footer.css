@@ -1,0 +1,17 @@
+.my-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-right: 5px;*/
+}
+
+footer svg  {
+    height: 2.5em;
+    width: 2.5em;
+    padding: 0 15px;
+}
+
+.my-footer a {
+    text-decoration: none;
+    color: white;
+}
