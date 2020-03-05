@@ -10,6 +10,7 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    color: #efecec;
     /*color: #363434;*/
 }
 #root {
@@ -18,28 +19,20 @@
     overflow: scroll;
     background: rgb(2,0,36);
     background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(22,171,212,1) 55%, rgba(0,212,255,1) 99%);
+    object-fit: contain;
 }
 
-h1 {
-    font-size: 2.5em;
-    color: #363434;
-}
-
-h2 {
-    font-size: 2em;
-    color: #363434;
-}
-
-h3 {
+h1, h2, h3 {
     font-family: 'Open Sans Condensed', sans-serif;
     text-transform: uppercase;
-    font-size: 1.75em;
+    font-size: 2em;
     font-weight: 900;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
 }
 
 p {
-    font-size: 1.5em;
-    color: #363434;
-    /*padding: 0px 2px;*/
+    font-size: 1.25em;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .1em;
+    font-weight: lighter;
 }

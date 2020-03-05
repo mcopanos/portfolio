@@ -1,7 +1,7 @@
 import React from 'react';
-import PassionateAboutCode from '../assests/pictures/code.jpg';
-import SelfTaught from '../assests/pictures/self-taught.jpg';
-import EagerToLearn from '../assests/pictures/eager-to-learn.jpg';
+import PassionateAboutCode from '../images/code.jpg';
+import SelfTaught from '../images/self-taught.jpg';
+import EagerToLearn from '../images/eager-to-learn.jpg';
 
 
 
@@ -13,8 +13,8 @@ const About = () => (
                 <div className="text-container">
                     <h3>passionate about code</h3><br/>
                     <p>Ever since my first "Hello World" I fell in love with coding.
-                        now it's my passion and new life style. I like creating new things and
-                        learning new JS frameworks!</p>
+                        now it's my passion and new life style. I like creating things
+                        for the web and learning new tech!</p>
                 </div>
             </div>
             <div className="code-section">
@@ -23,7 +23,7 @@ const About = () => (
                     <h3>Self Taught</h3><br/>
                     <p>From Free Code Camp to Udacity, I've taken
                         advantage of all the online resources as well as books
-                        and youTube.</p>
+                        and youTube videos.</p>
                 </div>
             </div>
             <div className="code-section">

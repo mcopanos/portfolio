@@ -2,15 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b84549d-06be-4600-a9b1-e49296b425e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/project.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/projects.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/google-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/memory-game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/mockup-site.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/zSweets.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assests/home-page.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assests/pictures/code.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/code.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assests/pictures/eager-to-learn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/eager-to-learn.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assests/pictures/profile-pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/profile-pic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assests/pictures/self-taught.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/self-taught.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accomplishments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Accomplishments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/AboutPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/AboutPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +33,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
-  </component>
   <component name="ProjectId" id="1X95W9nXyVLMcjmlCS5Ch6O02OI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,10 +41,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -44,10 +58,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/css" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/assests/pictures" />
-      <recent name="$PROJECT_DIR$/src/assests" />
+      <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -130,6 +145,11 @@
       <workItem from="1559776747100" duration="43000" />
       <workItem from="1580445501777" duration="860000" />
       <workItem from="1580527293960" duration="804000" />
+      <workItem from="1580607031386" duration="161000" />
+      <workItem from="1580607216530" duration="343000" />
+      <workItem from="1580638531767" duration="9432000" />
+      <workItem from="1580784418395" duration="2907000" />
+      <workItem from="1581132044741" duration="11000" />
     </task>
     <servers />
   </component>
@@ -144,5 +164,15 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="528" y="262" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580607179732">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="528" y="262" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580607179732" />
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1580784458173">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1580784458173" />
   </component>
 </project>

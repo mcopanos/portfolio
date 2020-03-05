@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import './css/Main.css';
 import './css/mobile_views/Main.css'
-import About from './components/About'
-import Accomplishments from "./components/Accomplishments";
-import Contact from "./components/Contact";
+import About from './pages/About'
+import Accomplishments from "./pages/Accomplishments";
+import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Header from './components/Header'
-import Home from './components/Home'
-import Projects from "./components/Projects";
+import Home from './pages/Home'
+import Projects from "./pages/Projects";
 
 class Layout extends Component {
 

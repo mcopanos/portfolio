@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Typed from 'typed.js';
-import ProfilePic from '../assests/pictures/profile-pic.jpg';
+import Typed from '../../node_modules/typed.js/lib/typed';
+import ProfilePic from '../images/profile-pic.jpg';
 import { Link } from "react-router-dom";
 
 class Home extends Component {
