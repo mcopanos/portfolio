@@ -20,7 +20,7 @@
 .code-section {
     background-color: #efecec;
     margin: 0 15px;
-    box-shadow: 0 0 7px;
+    /*box-shadow: 0 0 7px;*/
     width: calc(33% - 20px);
     /*height: 600px;*/
 }
@@ -39,4 +39,9 @@
     justify-content: center;
     align-content: center;
     padding: 35px 5px;
+}
+
+.text-container p {
+    color: black;
+    font-weight: 300;
 }
