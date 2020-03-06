@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b84549d-06be-4600-a9b1-e49296b425e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/project.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/projects.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/google-map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/memory-game.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/mockup-site.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/zSweets.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assests/home-page.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assests/pictures/code.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/code.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assests/pictures/eager-to-learn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/eager-to-learn.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assests/pictures/profile-pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/profile-pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assests/pictures/self-taught.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/self-taught.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accomplishments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Accomplishments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/AboutPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/AboutPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +130,8 @@
       <workItem from="1580638531767" duration="9432000" />
       <workItem from="1580784418395" duration="2907000" />
       <workItem from="1581132044741" duration="11000" />
+      <workItem from="1583446910186" duration="154000" />
+      <workItem from="1583460359940" duration="129000" />
     </task>
     <servers />
   </component>
